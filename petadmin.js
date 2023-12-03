@@ -12,7 +12,7 @@ function submitform(form) {
 		}
 	}
 	if (counter!=0){
-		window.open('https://leetcode.com/problemset/all/', '_self');
+		window.open('https://akankshrakesh.github.io/Paw-care/', '_self');
 	}
 	else{
 		redalert.style.display = 'block';
