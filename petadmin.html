@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="Akanksh">
+<meta name="description" content="website :>">
+ <title>Pet Admin</title>
+ <link rel="stylesheet" href="petadmin.css">
+  <link rel="icon" type="image/x-icon" href="https://static-00.iconduck.com/assets.00/apps-paw-icon-256x256-xw6ugm2m.png">
+</head>
+<body>
+<main>
+	<div class="container">
+		<h1><span style="color:#e8872f;">Paw</span><span style="color:#686868;">Care</span> Admin Login</h1>
+		<form id="login-form" method="POST" onsubmit="return submitform()" name="form">
+			<div class="redalert" style="display: none;">
+				<p>Wrong username or password try again</p>
+			</div>
+			<div class="input-field">
+				<label for="username">Username</label>
+				<input type="text" id="username" name="username">
+			</div>
+			<div class="input-field">
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password">
+			</div>
+			<button type="submit">Login</button>
+			
+		</form>
+	</div>
+	<script src="petadmin.js"></script>
+</main>
+</body>
+</html>
